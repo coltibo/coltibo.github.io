@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: white;
+    color: darkblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: chartreuse;
+    padding: 1,5rem;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+a:hover{
+    background-color: lightcyan;
+}
+
+
+
+nav a{
+text-decoration: none;
+}
+
+.card{
+background-color: black;
+width: 50%;
+margin: 1rem auto;
+border-radius: 10px;
+text-align: center;
+color: aliceblue;
+margin-top: 5rem;
+
+}
+li{
+list-style-type: none;
+}
+
+#card2 {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+footer img {
+    margin-top: 5rem;
+    width: 20px;
+}
